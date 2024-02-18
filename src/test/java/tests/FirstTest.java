@@ -9,4 +9,9 @@ public class FirstTest {
     public void firstTest() {
         RestAssured.get("https://www.google.com/").then().statusCode(200);
     }
+
+/*    @Test
+    public void secondTest() {
+        RestAssured.get("https://www.google.com/").then().statusCode(400);
+    }*/
 }
